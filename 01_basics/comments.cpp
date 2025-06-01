@@ -1,13 +1,15 @@
 /*
-    * C++ Comments Example
+    ! C++ Comments Example
     * This program demonstrates the use of comments in C++.
     * It includes single-line comments, multi-line comments, and documentation comments.
     * Comments are used to explain the code and make it more readable.
     * They are ignored by the compiler and do not affect the program's execution.
-    * Single-line comments start with // and continue to the end of the line.
-    * Multi-line comments start with /* and end with */.                     /*
+    ? Single-line comments start with // and continue to the end of the line.
+    ? Multi-line comments start with /* and end with */.                     /*
     
 */
+
+//! Example of comments in C++
 
 #include <iostream>  //* Preprocessor directive to include input-output stream library
 using namespace std; //* Use the standard namespace to avoid prefixing std:: before standard functions
