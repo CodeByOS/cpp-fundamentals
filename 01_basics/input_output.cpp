@@ -1,4 +1,3 @@
-
 /*
     * input and output operations in C++
     * This code demonstrates how to read input from the user and print output to the console in C++.
@@ -9,7 +8,7 @@ using namespace std;
 
 int main() {
     // Declare a variable to hold user input
-    int number = 20;
+    int number;
 
     // Prompt the user for input
     cout << "Enter a number: ";
