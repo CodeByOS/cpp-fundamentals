@@ -12,18 +12,55 @@
 */
 
 // Example of if-else statement
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int age;
+
+//     cout << "Enter your age: ";
+//     cin >> age;
+
+//     if(age > 18) {
+//         cout << "You are an adult." << endl;
+//     } else {
+//         cout << "You are a minor." << endl;
+//     }
+//     return 0;
+// }
+
+/*
+    * if else statements can be nested to check multiple conditions.
+    * Syntax:
+        if (condition1) {
+            ? code to be executed if condition1 is true
+        } else if (condition2) {
+            ? code to be executed if condition2 is true
+        } else {
+            ! code to be executed if both conditions are false
+        }
+*/
+
+// Example of nested if-else statement
 #include <iostream>
 using namespace std;
 
 int main() {
-    int age;
+    int score;
 
-    cout << "Enter your age: ";
-    cin >> age;
+    cout << "Enter your score: ";
+    cin >> score;
 
-    if(age > 18) {
-        cout << "You are an adult." << endl;
+    if(score >= 90) {
+        cout << "Grade: A" << endl;
+    } else if(score >= 80) {
+        cout << "Grade: B" << endl;
+    } else if(score >= 70) {
+        cout << "Grade: C" << endl;
+    } else if(score >= 60) {
+        cout << "Grade: D" << endl;
     } else {
-        cout << "You are a minor." << endl;
+        cout << "Grade: F" << endl;
     }
+    return 0;
 }
