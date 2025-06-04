@@ -16,7 +16,10 @@
 using namespace std;
 
 int main() {
-    int day = 3; // Example variable to switch on
+    
+    int day;
+    cout << "Enter a number (1-7) for the day of the week: ";
+    cin >> day;
 
     switch (day) {
         case 1:
