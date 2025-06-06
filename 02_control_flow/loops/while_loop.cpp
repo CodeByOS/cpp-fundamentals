@@ -14,14 +14,14 @@
 using namespace std;
 
 int main() {
-    // Example of a while loop that prints numbers from 1 to 5
+    //? Example of a while loop that prints numbers from 1 to 5
     int i = 1;
     while (i <= 5) {
         cout << "Number: " << i << endl;
         i++;
     }
 
-    // Example of a while loop that calculates the sum of numbers from 1 to 10
+    //? Example of a while loop that calculates the sum of numbers from 1 to 10
     int sum = 0;
     int j = 1;
     while (j <= 10) {
